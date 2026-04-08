@@ -74,7 +74,7 @@ class VSM:
             inverted_index_file.close()
             
             #storing document frequencies
-            document_frequency_file = open(file=".\\document_frequency.pkl", mode="wb")
+            document_frequency_file = open(file=".\\document_frequencies.pkl", mode="wb")
             pickle.dump(obj=self.__document_frequencies, file=document_frequency_file)
             document_frequency_file.close()
 
